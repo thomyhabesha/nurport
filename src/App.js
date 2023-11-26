@@ -1,16 +1,24 @@
 import logo from './logo.svg';
-import {BrowserRouter, Routes,Route} from 'react-router-dom'
+import { createHashRouter,RouterProvider} from 'react-router-dom'
 import Home from './page/Home'
+import ReactDom from 'react-dom/client'
+
 import './App.css';
+
+const router = createHashRouter(
+  [
+    {
+      path:"/*",
+      element:<Home/>,
+    }
+  ]);
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-      </Routes>
-      </BrowserRouter>
+      
+      <RouterProvider router={router} />
+      
      
 
     </div>
