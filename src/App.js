@@ -1,24 +1,19 @@
 import logo from './logo.svg';
-import { createHashRouter,RouterProvider} from 'react-router-dom'
+import {HashRouter, Routes,Route} from 'react-router-dom'
 import Home from './page/Home'
-import ReactDom from 'react-dom/client'
-
+import Payment from './page/Payment'
 import './App.css';
-
-const router = createHashRouter(
-  [
-    {
-      path:"/*",
-      element:<Home/>,
-    }
-  ]);
 
 function App() {
   return (
     <div className="App">
-      
-      <RouterProvider router={router} />
-      
+      <HashRouter >
+      <Routes>
+        <Route  path="/" element={<Home/>}/>
+        <Route  path="/Payment" element={<Payment/>}/>
+        
+      </Routes>
+      </HashRouter>
      
 
     </div>
