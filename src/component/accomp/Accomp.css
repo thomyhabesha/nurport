@@ -76,6 +76,10 @@
        grid-template-rows: 300px 300px 300px 300px; 
       height: 80rem;
        padding: 140px 10px 0 10px;
+       background: linear-gradient(
+        120deg, #a6c0fe 0%,
+        #f68084 100%
+       );
     }
     .acc_card img{
         width:90%;

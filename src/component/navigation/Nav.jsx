@@ -20,8 +20,8 @@ function Nav() {
           </div>
           <div className="nav_socialmedia">
             <a href="https://www.instagram.com/nur.a.abdo/"><img src={Data[0]} alt=""/></a>
-            <a href="" ><img src={Data[1]} alt=""/></a>
-            <a href="" > <img src={Data[2]} alt=""/></a>
+            <a href="https://www.linkedin.com/in/nurhussein-ali-713796237/" ><img src={Data[1]} alt=""/></a>
+            <a href="https://www.facebook.com/profile.php?id=100085869013804" > <img src={Data[2]} alt=""/></a>
           </div>
         </div>
         <button className='nav-btn' onClick={showNavbar}>   menu</button>
