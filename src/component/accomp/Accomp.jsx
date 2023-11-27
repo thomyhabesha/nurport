@@ -6,7 +6,7 @@ import './Accomp.css'
 
 function Accomp() {
   return (
-    <div className='acc_comp' style={{background:`url(${Accbg})`, backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:"center"}}>
+    <div className='acc_comp' >
 { 
    Data.map(item=>{
     return(
