@@ -1,16 +1,35 @@
 {
   "files": {
-    "main.css": "/sparktutor/static/css/main.f855e6bc.css",
-    "main.js": "/sparktutor/static/js/main.ebe42922.js",
+    "main.css": "/sparktutor/static/css/main.51606343.css",
+    "main.js": "/sparktutor/static/js/main.799cebcb.js",
     "static/js/787.96fc9ac2.chunk.js": "/sparktutor/static/js/787.96fc9ac2.chunk.js",
-    "static/media/logo.svg": "/sparktutor/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/thired-layer.png": "/sparktutor/static/media/thired-layer.c033b4309f11a285af36.png",
+    "static/media/Vector.png": "/sparktutor/static/media/Vector.d5c7d873d9cb6998429b.png",
+    "static/media/photo_2023-11-07_18-55-57.jpg": "/sparktutor/static/media/photo_2023-11-07_18-55-57.7dd76701158c8da79647.jpg",
+    "static/media/entoto.jpg": "/sparktutor/static/media/entoto.8ac4674693fbb674f021.jpg",
+    "static/media/photo_2023-11-07_18-55-46.jpg": "/sparktutor/static/media/photo_2023-11-07_18-55-46.9c7234c72884acd54f42.jpg",
+    "static/media/minister.jpg": "/sparktutor/static/media/minister.a1ce5599e6f0856041cf.jpg",
+    "static/media/photo_2023-11-07_20-26-21.jpg": "/sparktutor/static/media/photo_2023-11-07_20-26-21.e4f3b6682d5c7c227162.jpg",
+    "static/media/photo_2023-11-07_20-25-50.jpg": "/sparktutor/static/media/photo_2023-11-07_20-25-50.705587975475c04ad3af.jpg",
+    "static/media/photo_2023-11-07_20-26-36.jpg": "/sparktutor/static/media/photo_2023-11-07_20-26-36.59ceb0a26cd9e79ca7a3.jpg",
+    "static/media/photo_2023-11-07_20-26-41.jpg": "/sparktutor/static/media/photo_2023-11-07_20-26-41.86d56f26949b35793d8d.jpg",
+    "static/media/photo_2023-11-07_20-26-46.jpg": "/sparktutor/static/media/photo_2023-11-07_20-26-46.53ede25263382b8b1fd7.jpg",
+    "static/media/photo_2023-11-07_20-26-07.jpg": "/sparktutor/static/media/photo_2023-11-07_20-26-07.3b5899f5f9d5cca5a48f.jpg",
+    "static/media/photo_2023-11-07_20-26-29.jpg": "/sparktutor/static/media/photo_2023-11-07_20-26-29.c86744bc3725271c401b.jpg",
+    "static/media/hope.jpg": "/sparktutor/static/media/hope.1d4b3859d819adaf92b0.jpg",
+    "static/media/IMG_20220831_122832_974-1.jpg": "/sparktutor/static/media/IMG_20220831_122832_974-1.2f1c449b432f0a030204.jpg",
+    "static/media/photo_2023-11-07_20-33-13.jpg": "/sparktutor/static/media/photo_2023-11-07_20-33-13.01a0a62b2c8755afc250.jpg",
+    "static/media/nur11.jpg": "/sparktutor/static/media/nur11.af575207bc0f3cfa46a1.jpg",
+    "static/media/insta-removebg-preview.png": "/sparktutor/static/media/insta-removebg-preview.d8d63a6985c4d7716fe5.png",
+    "static/media/blackfb-removebg-preview.png": "/sparktutor/static/media/blackfb-removebg-preview.7c1aba0ffede1106ba98.png",
+    "static/media/instablack-removebg-preview.png": "/sparktutor/static/media/instablack-removebg-preview.165881fa48550419cb42.png",
     "index.html": "/sparktutor/index.html",
-    "main.f855e6bc.css.map": "/sparktutor/static/css/main.f855e6bc.css.map",
-    "main.ebe42922.js.map": "/sparktutor/static/js/main.ebe42922.js.map",
+    "main.51606343.css.map": "/sparktutor/static/css/main.51606343.css.map",
+    "main.799cebcb.js.map": "/sparktutor/static/js/main.799cebcb.js.map",
     "787.96fc9ac2.chunk.js.map": "/sparktutor/static/js/787.96fc9ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ebe42922.js"
+    "static/css/main.51606343.css",
+    "static/js/main.799cebcb.js"
   ]
 }
