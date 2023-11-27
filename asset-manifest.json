@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sparktutor/static/css/main.dd503f45.css",
-    "main.js": "/sparktutor/static/js/main.7dca8e63.js",
+    "main.css": "/sparktutor/static/css/main.3227544a.css",
+    "main.js": "/sparktutor/static/js/main.9599819e.js",
     "static/js/787.96fc9ac2.chunk.js": "/sparktutor/static/js/787.96fc9ac2.chunk.js",
     "static/media/thired-layer.png": "/sparktutor/static/media/thired-layer.c033b4309f11a285af36.png",
     "static/media/Vector.png": "/sparktutor/static/media/Vector.d5c7d873d9cb6998429b.png",
@@ -24,12 +24,12 @@
     "static/media/blackfb-removebg-preview.png": "/sparktutor/static/media/blackfb-removebg-preview.7c1aba0ffede1106ba98.png",
     "static/media/instablack-removebg-preview.png": "/sparktutor/static/media/instablack-removebg-preview.165881fa48550419cb42.png",
     "index.html": "/sparktutor/index.html",
-    "main.dd503f45.css.map": "/sparktutor/static/css/main.dd503f45.css.map",
-    "main.7dca8e63.js.map": "/sparktutor/static/js/main.7dca8e63.js.map",
+    "main.3227544a.css.map": "/sparktutor/static/css/main.3227544a.css.map",
+    "main.9599819e.js.map": "/sparktutor/static/js/main.9599819e.js.map",
     "787.96fc9ac2.chunk.js.map": "/sparktutor/static/js/787.96fc9ac2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd503f45.css",
-    "static/js/main.7dca8e63.js"
+    "static/css/main.3227544a.css",
+    "static/js/main.9599819e.js"
   ]
 }
