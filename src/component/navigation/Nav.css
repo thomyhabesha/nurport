@@ -7,7 +7,7 @@
     align-items: center;
     background-color: white;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     color:black;
     padding:0 0px 0 50px;
@@ -63,7 +63,7 @@ height: 25px;
 }
 
 .na_nav .nav-btn{
-    padding: 5px;
+    padding: 5px 15px 5px 5px ;
     cursor: pointer;
  background-color: transparent;
  visibility: hidden;
@@ -98,6 +98,7 @@ height: 25px;
    .na_nav .nav-btn{
       visibility: visible;
       opacity: 1;
+      font-size:1.5rem;
    }
    .nav_links{
  
