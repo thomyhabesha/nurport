@@ -90,10 +90,10 @@ justify-content: center;
     
     .left_about{
         height: 570px;
-         width:380px;
+         width:100dvw;
     }
     .left_about img{
-        width:300px;
+        width:90%;
         height:60%;
     }
     .right_about{
@@ -127,8 +127,8 @@ justify-content: center;
     
     
     .left_about{
-        height: 530px;
-         width:310px;
+        height: 570px;
+        width:100dvw;
     }
     .left_about img{
         width:230px;
