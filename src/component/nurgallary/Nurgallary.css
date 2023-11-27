@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Marck+Script&display=swap');
+
+
+.gallary_comp{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 80px 50px 80px;
+}
+.gallary_card{
+
+    width: 470px;
+    height: 480px;
+    
+}
+.gallary_text{
+    width: 250px;
+    height: 90px;
+    background-color: black;
+    color:white;
+    opacity: 0.7;
+    border-radius: 13px;
+    box-shadow: 20px 15px 8px rgba(87, 85, 85, 0.541);
+    padding:1px  0;
+}
+ h1{
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+}
+.gallary_text p{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+width:200px;
+}
+.gallary_text2{
+    width: 330px;
+    height: 97px;
+    background-color: black;
+    color:white;
+    opacity: 0.7;
+    padding-top: 2px;
+    border-radius: 13px;
+    box-shadow: 20px 15px 8px rgba(87, 85, 85, 0.541);
+    margin: 29rem 0 0 25rem;
+    font-size: 0.7rem;  
+}
+.gallary_comp2{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:135px 0 60px 0;
+     
+}
+.sec_gal_left{
+    width: 440px;
+    height: 520px;
+}
+.sec_gal_right{
+    z-index: -1;
+}
+
+
+@media screen and (max-width:835px){
+    .gallary_comp{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        padding:0px 20px 50px 20px;
+        gap:10px;
+    }
+    .gallary_card{
+
+        width: 350px;
+        height: 440px;
+        
+    }
+    .gallary_text{
+        width: 250px;
+        height: 90px;
+        background-color: black;
+        color:white;
+        opacity: 0.7;
+        border-radius: 13px;
+        box-shadow: 20px 15px 8px rgba(87, 85, 85, 0.541);
+        padding:1px  0;
+    }
+    
+.gallary_text2{
+    width: 330px;
+    height: 97px;
+    background-color: black;
+    color:white;
+    opacity: 0.7;
+    padding-top: 2px;
+    border-radius: 13px;
+    box-shadow: 20px 15px 8px rgba(87, 85, 85, 0.541);
+    margin: 29rem 0 0 25rem;
+    font-size: 0.7rem;  
+   
+}
+
+.gallary_comp2{
+    height: 60vh;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    padding:135px 0 60px 0;
+     
+}
+.sec_gal_left{
+    width: 380px;
+    height: 490px;
+}
+
+}
+
+@media screen and (max-width:428px){
+  
+.gallary_comp{
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding:60px 10px 0px 10px;
+}
+.gallary_card{
+    width: 380px;
+    height: 480px;
+}
+.gallary_text{
+    width: 220px;
+    height: 90px;
+    padding:5px  0;
+}
+ h1{
+    font-size: 0.9rem;
+}
+.gallary_text p{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+width:170px;
+}
+.gallary_text2{
+    width: 230px;
+    height: 97px;
+    padding-top: 2px;
+    margin: 29rem 0 0 5rem;
+    font-size: 0.7rem;  
+}
+.gallary_comp2{
+    margin-top: 180px;
+    height: 85rem;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding:105px 0 40px 0;
+     z-index: -1;
+}
+.sec_gal_left{
+    width: 380px;
+    height: 520px;
+    
+}
+.sec_gal_right{
+   z-index: 1;
+}
+  
+}
+
+
+@media screen and (max-width:375px){
+    
+.gallary_card{
+    width: 320px;
+    height: 420px;
+}
+.gallary_text{
+    width: 200px;
+    height: 70px;
+    padding:5px  0;
+}
+ h1{
+    font-size: 0.7rem;
+}
+.gallary_text p{
+    font-size: 0.5rem;
+    margin-left: 20px;
+}
+
+.sec_gal_left{
+    width: 330px;
+    height: 490px;
+    
+}
+.sec_gal_right{
+   z-index: 1;
+}
+}
+
+
+@media screen and (max-width:322px){
+   
+.gallary_card{
+    width: 300px;
+    height: 400px;
+}
+.gallary_text{
+    width: 200px;
+    height: 70px;
+    padding:5px  0;
+}
+ h1{
+    font-size: 0.7rem;
+}
+.gallary_text p{
+    font-size: 0.5rem;
+    margin-left: 20px;
+}
+
+.sec_gal_left{
+    width: 330px;
+    height: 490px;
+    
+}
+.sec_gal_right{
+   z-index: 1;
+} 
+.sec_gal_left{
+    width: 280px;
+    height: 460px;
+    
+}
+.gallary_text2{
+    width: 230px;
+    height: 97px;
+    padding-top: 2px;
+    margin: 27rem 0 0 2rem;
+    font-size: 0.7rem;  
+}
+}

@@ -1,0 +1,70 @@
+.hero_comp{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.hero_cont{
+    width:883;
+    height: 402px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+    color:white;
+
+   
+    border-radius: 13px;
+}
+.hero_texts hr{
+    width:100px;
+margin-top:-16px
+}
+.hero_texts h2{
+    font-size: 45;
+    font-weight: bold;
+}
+
+.hero_texts p:nth-child(2){
+    font-size: 22;
+    font-weight: bold;
+}
+.hero_texts p:nth-child(3){
+    font-size: 19;font-weight: bold;
+}
+.hero_texts p:nth-child(4){
+    font-size: 19;font-weight: bold;
+}
+.hero_texts p:nth-child(5){
+    font-size: 19;font-weight: bold;
+}
+.hero_cont img{
+    width:220px;
+    height:220px;
+    border-radius: 100%;
+
+}
+
+
+@media screen and (max-width:800px){
+.hero_texts p{
+
+font-size: 25px;
+}
+.hero_texts{
+    width:80%;
+}
+.hero_texts h2{
+    
+    font-size: 29px;  
+}
+}
+
+@media screen and (max-width:428px){
+    .hero_texts{
+        width:90%;
+    } 
+    .hero_texts p{
+        font-size: 16px;
+        }
+}

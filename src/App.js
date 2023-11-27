@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import {HashRouter, Routes,Route} from 'react-router-dom'
 import Home from './page/Home'
-import Payment from './page/Payment'
+import Acomplishments from './page/Acomplishments'
 import './App.css';
 
 function App() {
@@ -9,8 +8,8 @@ function App() {
     <div className="App">
       <HashRouter >
       <Routes>
-        <Route  path="/" element={<Home/>}/>
-        <Route  path="/Payment" element={<Payment/>}/>
+        <Route  exact path="/" element={<Home/>}/>
+        <Route  path="/accomplish" element={<Acomplishments/>}/>
         
       </Routes>
       </HashRouter>

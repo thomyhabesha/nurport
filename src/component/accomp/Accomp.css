@@ -1,0 +1,141 @@
+.acc_card{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap:8px;
+    padding: 20px ;
+    color:white
+}
+
+.acc_card p:hover{
+    color:rgb(126, 84, 8);
+    cursor: pointer;
+}
+.acc_comp{
+   display: grid;
+   grid-template-columns: 430px 430px 430px; 
+   grid-template-rows: 400px 400px 400px; 
+  height: 80rem;
+   padding: 140px 70px 0 70px;
+}
+.acc_card img{
+    width:90%;
+    height: 280px;
+}
+
+
+@media screen and (max-width:836px){
+    .acc_comp{
+        grid-template-columns: 400px 400px 400px; 
+        
+        padding: 140px 40px 0 40px;
+     }  
+}
+
+@media screen and (max-width:769px){
+    .acc_comp{
+        grid-template-columns: 370px 370px 370px; 
+        
+        padding: 140px 40px 0 40px;
+     }  
+}
+
+
+@media screen and (max-width:429px){
+    
+    .acc_card{
+        width: 145px;
+        height: 190px;
+        background-color: black;
+        opacity: 0.8;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        gap:8px;
+        padding: 20px;
+        color:white
+    }
+    .acc_card p{
+    font-size: 0.7rem;
+    }
+    .acc_card p:hover{
+        color:rgb(126, 84, 8);
+        cursor: pointer;
+    }
+    .acc_comp{
+       display: grid;
+       grid-template-columns: 210px 210px ; 
+       grid-template-rows: 300px 300px 300px 300px; 
+      height: 80rem;
+       padding: 140px 10px 0 10px;
+    }
+    .acc_card img{
+        width:90%;
+        height: 60%;
+    }
+
+
+    }
+
+    
+@media screen and (max-width:393px){
+    .acc_comp{
+        grid-template-columns: 200px 200px ; 
+   
+     }
+     .acc_card{
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .acc_card{
+        width: 290px;
+        height: 180px;
+        background-color: black;
+        opacity: 0.8;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        gap:8px;
+        padding: 20px;
+        color:white
+    }
+    .acc_card p{
+    font-size: 0.7rem;
+    }
+    .acc_card p:hover{
+        color:rgb(126, 84, 8);
+        cursor: pointer;
+    }
+    .acc_comp{
+       display: grid;
+       grid-template-columns: 210px ; 
+       grid-template-rows: 350px 350px 350px 350px; 
+      height: 150rem;
+       padding: 140px 10px 0 10px;
+      
+    }
+    .acc_card img{
+        width:90%;
+        height: 60%;
+    }
+
+
+}
+
+@media screen and (max-width:322px){
+    .acc_card{
+        width: 260px;
+    }
+}

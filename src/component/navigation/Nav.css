@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,400&display=swap');
+
+
+.na_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    color:black;
+    padding:0 0px 0 50px;
+    z-index:5;
+}
+.na_nav h1{
+    letter-spacing:3px;
+    font-size:1.3rem;
+    margin-right:auto;
+}
+
+.right_nav{
+    width:480px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav_links{
+    width:370px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    
+}
+.nav_links a{
+    text-decoration:none;
+    color:black
+}
+
+.nav_links a:hover{
+cursor: pointer;
+text-decoration: underline;
+color:rgb(148, 100, 10);
+transition: 0.4s;
+}
+
+.nav_socialmedia{
+    height: 40px;
+    width:283;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+
+.na_nav img{
+width:25px;
+height: 25px;
+}
+
+.na_nav .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+ background-color: transparent;
+ visibility: hidden;
+ opacity: 0;
+ font-size: 1.8rem;
+ border:none;
+ outline: none;
+ }
+
+
+@media screen and (max-width:836px){
+    .na_nav {
+        padding:0 20px;
+        display: flex;
+    }   
+    .right_nav{
+        width:110px;
+        height: 100%;
+        
+    }
+    
+    .nav_links{
+        width:330px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        font-family: 'Noto Serif', serif;
+    }
+    .na_nav h1{
+        margin-right: auto;
+    }
+   .na_nav .nav-btn{
+      visibility: visible;
+      opacity: 1;
+   }
+   .nav_links{
+ 
+    position: fixed;
+      top:0;
+      left:0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:1.8rem;
+
+background-color: rgb(82, 35, 3);
+z-index: 5;
+transition: 1s;
+transform: translateY(-100vh);
+font-size: 1.5rem;
+}
+.na_nav .responsive_nav{
+   transform: none;
+}
+.nav_links .nav-close-btn{
+position: absolute;
+top:2rem;
+right:2rem;
+}
+
+}

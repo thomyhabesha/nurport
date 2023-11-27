@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Playfair+Display:ital@1&display=swap');
+
+
+.about_comp{
+    display: flex;
+    gap:190px;
+    height: 100vh;
+    padding:60px 0 30px 60px;
+}
+
+.left_about{
+height: 570px;
+width:515px;
+display:flex;
+align-items:center;
+justify-content: center;
+
+
+}
+
+.left_about img{
+    width:430px;
+    height:77%;
+}
+
+.right_about{
+    align-self: center;
+    width:400px;
+   height:480px;
+   display: flex;
+   flex-direction: column;
+   gap:15px;
+   font-size: 17px;
+}
+.right_about h1{
+    font-size: 1.9rem;
+    letter-spacing:2px;
+    font-family: 'Playfair Display', serif;
+}
+.right_about p{
+    line-height: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:1.3rem
+}
+
+
+
+@media screen and (max-width:835px){
+    .about_comp{
+   
+        flex-direction: column;
+        gap:0px;
+        align-items: center;
+        height: 50rem;
+        padding:45px 0px 10px 0px;
+    }
+    
+    
+    .left_about{
+        height: 570px;
+         width:600px;
+    }
+    .right_about{
+        align-self: center;
+        width:520px;
+       height:480px;
+       display: flex;
+       flex-direction: column;
+       gap:15px;
+       font-size: 17px;
+    }
+    .right_about p{
+        width:500px;
+    }
+}
+
+
+@media screen and (max-width:428px){
+    
+    .about_comp{
+       
+        flex-direction: column;
+        gap:0px;
+        align-items: center;
+        height: 70rem;
+        padding:45px 0px 10px 0px;
+    }
+    
+    
+    .left_about{
+        height: 570px;
+         width:380px;
+    }
+    .left_about img{
+        width:300px;
+        height:60%;
+    }
+    .right_about{
+    
+        width:370px;
+       
+    }
+    .right_about p{
+        width:340px;
+    }
+    }
+    
+    
+    @media screen and (max-width:375px){
+        .right_about p{
+            font-size:1rem;
+            width:310px;
+            align-self: center;
+        }
+    }
+@media screen and (max-width:322px){
+ 
+    .about_comp{
+   
+        flex-direction: column;
+        gap:0px;
+        align-items: center;
+        height: 50rem;
+        padding:45px 0px 10px 0px;
+    }
+    
+    
+    .left_about{
+        height: 530px;
+         width:310px;
+    }
+    .left_about img{
+        width:230px;
+        height:45%;
+    }
+    .right_about p{
+        
+        width:280px;
+        align-self: center;
+    }
+}
