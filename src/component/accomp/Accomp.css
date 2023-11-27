@@ -23,7 +23,7 @@
    grid-template-rows: 400px 400px 400px; 
   height: 80rem;
    padding: 140px 70px 0 70px;
-   background-color: linear-gradient(
+   background: linear-gradient(
         120deg, #a6c0fe 0%,
         #f68084 100%
        );
