@@ -5,11 +5,11 @@ import About from '../component/aboutme/About'
 import Nurgallary from '../component/nurgallary/nurgallary' 
 import Contact from '../component/contact/Contact.jsx' 
 import Footer from '../component/footer/Footer.jsx' 
-
+import "./Home.css"
 
 function Home() {
   return (
-    <div>
+    <div className="home">
     <Nav/>
 <Hero/>
 <About/>
