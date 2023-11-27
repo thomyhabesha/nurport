@@ -6,7 +6,7 @@ import './Accomp.css'
 
 function Accomp() {
   return (
-    <div className='acc_comp' >
+    <div className='acc_comp'>
 { 
    Data.map(item=>{
     return(
